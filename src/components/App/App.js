@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
+import WelcomeSection from '../WelcomeSection/WelcomeSection';
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+const App = () => {
+    return (
+        <div>
+            <WelcomeSection />
+        </div>
+    );
 }
 
 export default App;
