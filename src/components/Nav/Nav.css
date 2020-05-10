@@ -1,0 +1,27 @@
+nav {
+    background-color: #252934;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 1em 0em 1em 3em;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 1.5em;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #04c2c9;
+}
