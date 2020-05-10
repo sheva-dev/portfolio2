@@ -1,0 +1,42 @@
+.bar-chart {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    padding: 10px;
+}
+
+.bar-chart-title {
+    width: 20%;
+    align-items: flex-start;
+    background-color: #04c2c9;
+}
+
+p {
+    text-align: center;
+    line-height: 30px;
+}
+
+.bar-chart-div {
+    width: 70%;
+    background-color: #eee;
+}
+
+.bar-chart-width {
+    background-color: #00a1a7;
+    height: 30px;
+    animation: fadein 5s
+}
+
+.bar-chart-procent {
+    width: 20%;
+    background-color: #eee;
+}
+
+@keyframes fadein {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100;
+    }
+}
