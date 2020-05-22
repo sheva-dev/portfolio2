@@ -1,0 +1,17 @@
+.competence-div {
+    display: flex;
+    flex: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin-top: 5%;
+}
+
+.circle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #04c2c9;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}

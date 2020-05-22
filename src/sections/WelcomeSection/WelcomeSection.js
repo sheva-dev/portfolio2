@@ -1,7 +1,7 @@
 import React from 'react';
 import './WelcomeSection.css';
-import WelcomeText from './WelcomeText/WelcomeText';
-import WelcomeButton from './WelcomeButton/WelcomeButton';
+import WelcomeText from '../../components/WelcomeText/WelcomeText';
+import WelcomeButton from '../../components/WelcomeButton/WelcomeButton';
 
 const WelcomeSection = () => {
     return (

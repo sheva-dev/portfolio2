@@ -9,27 +9,30 @@
     width: 20%;
     align-items: flex-start;
     background-color: #04c2c9;
+    /* animation: fadein 1s infinite alternate; */
 }
 
 p {
     text-align: center;
-    line-height: 30px;
+    line-height: 35px;
 }
 
 .bar-chart-div {
-    width: 70%;
+    width: 60%;
     background-color: #eee;
 }
 
-.bar-chart-width {
+.animated-bar-chart-width {
     background-color: #00a1a7;
     height: 30px;
-    animation: fadein 5s
+    animation: fadein 2s
 }
 
-.bar-chart-procent {
-    width: 20%;
+.animated-bar-chart-procent {
+    width: 10%;
     background-color: #eee;
+    text-align: center;
+    line-height: 35px;
 }
 
 @keyframes fadein {

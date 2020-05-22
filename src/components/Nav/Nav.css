@@ -25,3 +25,7 @@ a {
 a:hover {
     color: #04c2c9;
 }
+
+.hide-nav {
+    background-color: red;
+}

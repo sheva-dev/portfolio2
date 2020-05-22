@@ -1,14 +1,12 @@
 import React from 'react';
 import Nav from '../Nav/Nav';
-import WelcomeSection from '../WelcomeSection/WelcomeSection';
-import MyWorkSection from '../MyWorkSection/MyWorkSection';
+import Sections from '../../sections/Sections/Sections';
 
 const App = () => {
     return (
         <div>
-            <Nav />
-            <WelcomeSection />
-            <MyWorkSection />
+            {/* <Nav /> */}
+            <Sections />
         </div>
     );
 }

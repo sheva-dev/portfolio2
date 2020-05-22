@@ -37,11 +37,11 @@ const chartData = [
     {
         id: '8',
         title: 'NODE.JS',
-        width: '80%',
+        width: '70%',
     },
     {
         id: '9',
-        title: 'Angular',
+        title: 'ANGULAR',
         width: '60%',
     },
     {
