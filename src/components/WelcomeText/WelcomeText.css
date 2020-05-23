@@ -1,4 +1,10 @@
 .welcome-text {
     color: #fff;
-    font-size: 3vw;
+    font-size: 2vw;
+}
+
+.text-span {
+    color: #fa292a;
+    line-height: 11vh;
+    margin-right: 1vw;
 }

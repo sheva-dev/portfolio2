@@ -9,32 +9,32 @@ const competenceData = [
         icon: faShieldCheck,
         color: '#fff',
         size: '4x',
-        title: '',
-        des: ''
+        title: 'RESPONSIVE',
+        des: 'Morbi mattis ullamcorper velit. Praesent adipiscing.'
     },
     {
         id: '2',
         icon: faPhoneLaptop,
         color: '#fff',
         size: '4x',
-        title: '',
-        des: ''
+        title: 'RESPONSIVE',
+        des: 'Morbi mattis ullamcorper velit. Praesent adipiscing.'
     },
     {
         id: '3',
         icon: faTachometerFast,
         color: '#fff',
         size: '4x',
-        title: '',
-        des: ''
+        title: 'RESPONSIVE',
+        des: 'Morbi mattis ullamcorper velit. Praesent adipiscing.'
     },
     {
         id: '4',
         icon: faUserCheck,
         color: '#fff',
         size: '4x',
-        title: '',
-        des: ''
+        title: 'RESPONSIVE',
+        des: 'Morbi mattis ullamcorper velit. Praesent adipiscing.'
     },
 ];
 

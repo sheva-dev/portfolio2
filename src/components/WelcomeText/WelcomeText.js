@@ -4,15 +4,12 @@ import './WelcomeText.css';
 const WelcomeText = () => {
     return (
         <div className="welcome-text">
-            <p>
-                Hi, <span style={{ color: "#fa292a" }}>It's Amin.</span>
+            <h2>
+                Hi, <span className="text-span">It's Amin.</span>
+                I'm a full-stack web
                 <br />
-                <br />
-                I'm a full-stack web and
-                <br />
-                <br />
-                mobile app developer
-            </p>
+                and mobile app developer
+            </h2>
         </div>
     );
 }

@@ -4,7 +4,7 @@ import ProfileSection from '../ProfileSection/ProfileSection';
 
 const Sections = () => {
     return (
-        <div className="section">
+        <div className="sections">
             <WelcomeSection />
             <ProfileSection />
         </div>

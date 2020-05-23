@@ -1,12 +1,14 @@
 .bar-chart {
     display: flex;
     flex-direction: row;
-    height: 50px;
+    height: 5vh;
     padding: 10px;
+    font-size: 1rem;
 }
 
 .bar-chart-title {
     width: 20%;
+    height: 2.8vh;
     align-items: flex-start;
     background-color: #04c2c9;
     /* animation: fadein 1s infinite alternate; */
@@ -14,7 +16,7 @@
 
 p {
     text-align: center;
-    line-height: 35px;
+    line-height: 3.5vh;
 }
 
 .bar-chart-div {
@@ -24,21 +26,21 @@ p {
 
 .animated-bar-chart-width {
     background-color: #00a1a7;
-    height: 30px;
+    height: 2.7vh;
     animation: fadein 2s
 }
 
 .animated-bar-chart-procent {
     width: 10%;
     background-color: #eee;
-    text-align: center;
-    line-height: 35px;
+    line-height: 3.5vh;
 }
 
 @keyframes fadein {
     0% {
         width: 0;
     }
+
     100% {
         width: 100;
     }
