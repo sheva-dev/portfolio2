@@ -1,0 +1,19 @@
+.project-container {
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    width: 80%;
+}
+
+@media (min-width: 600px) {
+    .project-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .project-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
