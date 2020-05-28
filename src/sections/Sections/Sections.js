@@ -1,12 +1,17 @@
 import React from 'react';
-import WelcomeSection from '../WelcomeSection/WelcomeSection';
-import ProfileSection from '../ProfileSection/ProfileSection';
+import WelcomeSection from '../Welcome/WelcomeSection';
+import ProfileSection from '../Profile/ProfileSection';
+import ProjectSection from '../Projects/ProjectSection';
+import ContactSection from '../Contact/ContactSection';
+import './Sections.css';
 
 const Sections = () => {
     return (
         <div className="sections">
             <WelcomeSection />
             <ProfileSection />
+            <ProjectSection />
+            <ContactSection />
         </div>
     );
 }

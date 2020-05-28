@@ -1,7 +1,7 @@
 import React from 'react';
 import './WelcomeButton.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDoubleRight } from '@fortawesome/pro-regular-svg-icons'
 
 const WelcomeButton = () => {
     return (
