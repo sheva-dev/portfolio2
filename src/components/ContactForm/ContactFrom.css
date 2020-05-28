@@ -1,0 +1,41 @@
+.row {
+    display: flex;
+    font-family: 'Raleway' !important;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.card-body {
+    background-color: #1e242c;
+}
+
+.form-control {
+    background-color: #252934 !important;
+    color: #fff !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.md-textarea {
+    resize: none !important;
+}
+
+.border-focus:focus {
+    border: none !important;
+    box-shadow: none !important;
+    color: #fff !important;
+}
+
+.active {
+    color: gray !important;
+    background-color: #252934;
+}
+
+.Ripple {
+    color: #fff !important;
+}
+
+.btn-default {
+    color: #04c2c9 !important;
+    border-top-color: #04c2c9 !important;
+}
