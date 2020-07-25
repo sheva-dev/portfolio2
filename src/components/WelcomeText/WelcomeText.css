@@ -6,5 +6,8 @@
 .text-span {
     color: #fa292a;
     line-height: 11vh;
-    margin-right: 1vw;
+}
+
+h2 {
+    max-width: 500px;
 }
