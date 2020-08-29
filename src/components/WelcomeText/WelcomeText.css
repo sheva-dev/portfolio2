@@ -1,13 +1,19 @@
-.welcome-text {
+.welcome-text p {
     color: #fff;
-    font-size: 2vw;
+    font-size: 2rem;
+    max-width: 550px;
+    line-height: 1.5em;
 }
 
 .text-span {
     color: #fa292a;
-    line-height: 11vh;
 }
 
-h2 {
-    max-width: 500px;
+@media only screen and (max-width: 500px) {
+    .welcome-text p {
+        color: #fff;
+        font-size: 1.5rem;
+        max-width: 550px;
+        line-height: 2em;
+    }
 }

@@ -1,9 +1,11 @@
+import fast  from '../images/fast-s.png';
+
 const projectCardsData = [
     {
         id: '1',
-        imgUrl: 'faShieldCheck',
-        title: '#fff',
-        projectLink: '4x',
+        imgUrl: fast,
+        title: 'fast-security',
+        projectLink: '',
     },
     {
         id: '2',

@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500;1,600;1,800&display=swap');
 
-html {
-    scroll-behavior: smooth;
-    scroll-snap-type: mandatory;
-	scroll-snap-points-y: repeat(100vh);
-	scroll-snap-type: y mandatory;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
+}
+
+html {
+    /* scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+	scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory; */
 }
 
 body {

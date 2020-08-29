@@ -1,8 +1,9 @@
 .project-container {
+    max-width: 800px;
     margin: 0 auto;
     display: grid;
     grid-gap: 1rem;
-    width: 80%;
+    padding-top: 50px;
 }
 
 @media (min-width: 600px) {

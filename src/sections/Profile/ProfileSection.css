@@ -1,12 +1,9 @@
 .profile-section {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     align-items: center;
 }
 
 .chart-div {
-    width: 50%;
-    margin: 0px 60px 0px 60px;
-    overflow: visible;
+    width: 40%;
 }
