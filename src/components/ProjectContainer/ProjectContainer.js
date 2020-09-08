@@ -13,6 +13,7 @@ const ProjectContainer = () => {
                     title={card.title}
                     projectLink={card.projectLink}
                     disc={card.disc}
+                    link={card.projectLink}
                 />
             ))}
         </div>

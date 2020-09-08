@@ -9,7 +9,7 @@ const ProjectCard = (props) => {
                 <div className="card-disc">
                     <p className="title">{props.title}</p>
                     <p className="disc">{props.disc}</p>
-                    <a href="" className="card-button">View on Github</a>
+                    <a href={props.link} className="card-button">View on Github</a>
                 </div>
             </div>
         </div>

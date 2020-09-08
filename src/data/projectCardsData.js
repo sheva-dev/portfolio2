@@ -9,28 +9,28 @@ const projectCardsData = [
         imgUrl: img1,
         title: 'Car Hub',
         disc: 'php, html, css, Javascript',
-        projectLink: '',
+        projectLink: 'https://github.com/Amin-Mohamed/car-hub',
     },
     {
         id: '2',
         imgUrl: img2,
         title: 'Kulturakademin',
         disc: '',
-        projectLink: '4x',
+        projectLink: 'https://github.com/Amin-Mohamed/kulturakademin',
     },
     {
         id: '3',
         imgUrl: img3,
         title: 'Photoify',
         disc: '',
-        projectLink: '4x',
+        projectLink: 'https://github.com/Amin-Mohamed/photoify',
     },
     {
         id: '4',
         imgUrl: img4,
         title: 'Fast Security',
         disc: '',
-        projectLink: '4x',
+        projectLink: 'https://github.com/Amin-Mohamed/photoify',
     },
 ];
 
