@@ -1,10 +1,17 @@
 import React from 'react';
 import './ProjectCard.css';
-import { BrowserRouter as Link } from "react-router-dom"
 
 const ProjectCard = (props) => {
     return (
         <div className="project-card">
+            <img className="card-img" src={props.imgUrl} alt="card-img" />
+            <div className="overlay">
+                <div className="card-disc">
+                    <p className="title">{props.title}</p>
+                    <p className="disc">{props.disc}</p>
+                    <a href="" className="card-button">View on Github</a>
+                </div>
+            </div>
         </div>
     );
 }

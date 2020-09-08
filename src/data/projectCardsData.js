@@ -1,40 +1,35 @@
-import fast  from '../images/fast-s.png';
+import img1 from '../images/04.png';
+import img2 from '../images/01.png';
+import img3 from '../images/02.png';
+import img4 from '../images/03.png';
 
 const projectCardsData = [
     {
         id: '1',
-        imgUrl: fast,
-        title: 'fast-security',
+        imgUrl: img1,
+        title: 'Car Hub',
+        disc: 'php, html, css, Javascript',
         projectLink: '',
     },
     {
         id: '2',
-        imgUrl: 'faShieldCheck',
-        title: '#fff',
+        imgUrl: img2,
+        title: 'Kulturakademin',
+        disc: '',
         projectLink: '4x',
     },
     {
         id: '3',
-        imgUrl: 'faShieldCheck',
-        title: '#fff',
+        imgUrl: img3,
+        title: 'Photoify',
+        disc: '',
         projectLink: '4x',
     },
     {
         id: '4',
-        imgUrl: 'faShieldCheck',
-        title: '#fff',
-        projectLink: '4x',
-    },
-    {
-        id: '5',
-        imgUrl: 'faShieldCheck',
-        title: '#fff',
-        projectLink: '4x',
-    },
-    {
-        id: '6',
-        imgUrl: 'faShieldCheck',
-        title: '#fff',
+        imgUrl: img4,
+        title: 'Fast Security',
+        disc: '',
         projectLink: '4x',
     },
 ];

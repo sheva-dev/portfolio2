@@ -1,20 +1,21 @@
 .bar-chart {
     display: flex;
     flex-direction: row;
-    height: 40px;
-    padding: 10px;
+    height: 50px;
+    padding: 2%;
+    font-weight: bolder;
 }
 
 .bar-chart-title {
-    width: 20%;
-    height: 2vh;
+    width: 25%;
+    height: 30px;
     align-items: flex-start;
     background-color: #04c2c9;
 }
 
-p {
+.bar-chart-title p {
     text-align: center;
-    line-height: 2vh;
+    line-height: 2;
 }
 
 .bar-chart-div {
@@ -24,14 +25,14 @@ p {
 
 .animated-bar-chart-width {
     background-color: #00a1a7;
-    height: 2vh;
+    height: 3.8vh;
     animation: fadein 2s
 }
 
-.animated-bar-chart-procent {
-    width: 10%;
+.bar-chart-procent {
+    width: 7%;
     background-color: #eee;
-    line-height: 3.5vh;
+    line-height: 2;
 }
 
 @keyframes fadein {

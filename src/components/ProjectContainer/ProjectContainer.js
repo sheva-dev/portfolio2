@@ -12,6 +12,7 @@ const ProjectContainer = () => {
                     imgUrl={card.imgUrl}
                     title={card.title}
                     projectLink={card.projectLink}
+                    disc={card.disc}
                 />
             ))}
         </div>
