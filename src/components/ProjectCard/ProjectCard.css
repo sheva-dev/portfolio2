@@ -9,6 +9,10 @@
     display: block;
 }
 
+/* .card-img:hover {
+    opacity: 0.4;
+} */
+
 .overlay {
     position: absolute;
     top: 0;
@@ -19,11 +23,12 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #fff;
+    background-color: #e6e6e6;
+    border: 0.5rem solid #04c2c9;
 }
 
 .project-card:hover .overlay {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .card-disc {
@@ -45,12 +50,13 @@
 }
 
 .card-button {
-    border: 0.1em solid #04c2c9;
+    border: 0.3em solid #04c2c9;
+    border-radius: 30px;
     font-weight: 500;
     color: #000;
     text-align: center;
     transition: all 0.3s;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .card-button:hover {
@@ -60,6 +66,6 @@
 
 .disc {
     color: #000;
-    text-transform: uppercase;
+
     font-weight: 400;
 }

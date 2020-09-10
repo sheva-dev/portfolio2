@@ -6,13 +6,13 @@ import { faAngleDoubleRight } from '@fortawesome/pro-regular-svg-icons'
 const WelcomeButton = () => {
     return (
         <div className="welocme-button">
-            <button className="button">
+            <a href="#profile" className="button">
                 <span style={{
                     paddingRight: '15px'
                 }}
                 >View my work</span>
                 <FontAwesomeIcon className="icon" icon={faAngleDoubleRight} />
-            </button>
+            </a>
         </div>
     );
 }

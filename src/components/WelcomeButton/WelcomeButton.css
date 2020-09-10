@@ -1,5 +1,5 @@
 .welocme-button {
-    padding-top: 80px;
+    padding-top: 40px;
 }
 
 .button {
@@ -10,10 +10,12 @@
     transition: 0.3s;
     cursor: pointer;
     font-size: 1.2rem;
+    font-weight: bolder;
 }
 
 .button:hover {
     background: #04c2c9;
+    color: #fff;
 }
 
 .icon {
@@ -21,7 +23,7 @@
 }
 
 .button:hover .icon {
-    transform:rotate(90deg);
-    -ms-transform:rotate(90deg);
-    -webkit-transform:rotate(90deg);
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
 }

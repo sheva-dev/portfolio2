@@ -1,7 +1,7 @@
 .bar-chart {
     display: flex;
     flex-direction: row;
-    height: 50px;
+    height: 55px;
     padding: 2%;
     font-weight: bolder;
 }
@@ -20,19 +20,21 @@
 
 .bar-chart-div {
     width: 60%;
+    height: 29px;
     background-color: #eee;
 }
 
 .animated-bar-chart-width {
     background-color: #00a1a7;
-    height: 3.8vh;
-    animation: fadein 2s
+    height: 29px;
+    animation: fadein 2s;
 }
 
 .bar-chart-procent {
     width: 7%;
     background-color: #eee;
     line-height: 2;
+    height: 29px;
 }
 
 @keyframes fadein {
