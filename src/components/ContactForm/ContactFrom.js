@@ -1,49 +1,87 @@
-import React from 'react';
+import React, { useState } from 'react'
+import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBCardBody, MDBIcon, MDBInput } from 'mdbreact';
+import { useForm } from 'react-hook-form';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
-import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBCard, MDBCardBody, MDBIcon, MDBInput } from 'mdbreact';
 import './ContactFrom.css';
 
 const ContactFrom = () => {
+    const { register, handleSubmit, errors, setValue } = useForm();
+    const [confMsg, setConfMsg] = useState(false);
+    const [name, setName] = useState('');
+
+    const onSubmit = (data) => {
+        setConfMsg(true);
+        setName(data.name)
+        setValue('name', '');
+        setValue('email', '');
+        setValue('message', '');
+    }
+
     return (
         <div className="container">
             <MDBContainer>
                 <MDBRow>
                     <MDBCol md="5">
                         <MDBCardBody>
-                            <form>
-                                <label
-                                    className="grey-text font-weight-light"
-                                >
+
+                            <form onSubmit={handleSubmit(onSubmit)}>
+                                <label className="grey-text font-weight-light">
                                     Your name
                                 </label>
+
                                 <input
                                     type="text"
                                     id="name"
                                     className="form-control"
+                                    ref={register({ required: true })}
+                                    name="name"
                                 />
-                                <label
-                                    className="grey-text font-weight-light"
-                                >
+                                {errors.name && 'name is required.'}
+
+                                <label className="grey-text font-weight-light">
                                     Your email
                                 </label>
+
                                 <input
                                     type="email"
                                     id="email"
                                     className="form-control"
+                                    ref={register({ required: true })}
+                                    name="email"
                                 />
-                                <MDBInput className="border-focus" type="textarea" label="Your Message" rows="5" id="message" />
+                                {errors.email && 'Email is required.'}
+
+                                <label className="grey-text font-weight-light">
+                                    Your Message
+                                </label>
+
+                                <textarea ref={register({ required: true })} className="form-control"
+                                    rows="5"
+                                    id="message"
+                                    name="message" />
+                                {errors.message && 'Message is required.'}
+
                                 <div className="text-center py-4 mt-3">
                                     <MDBBtn className="btn btn-outline-cyan accent-1" type="submit">
                                         Send
                                         <MDBIcon far icon="paper-plane" className="ml-2" />
                                     </MDBBtn>
                                 </div>
+
                             </form>
+
                         </MDBCardBody>
                     </MDBCol>
                 </MDBRow>
+
+                {confMsg &&
+                    <p className="confirmation-message" style={{ textAlign: 'center', marginTop: "20px", fontWeight: '1000' }}>
+                        Thank you {name} for your message, I will answer you as soon as possible.
+                    </p>
+                }
+
             </MDBContainer>
         </div>
     );

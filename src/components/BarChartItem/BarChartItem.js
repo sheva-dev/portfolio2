@@ -3,7 +3,6 @@ import './BarChartItem.css';
 import CountUp from 'react-countup';
 
 const BarChart = (props) => {
-    const [hasScrolledDown, setHasScrolledDown] = useState(false);
     const [scrollPosition, setSrollPosition] = useState(0);
 
     const handleScroll = () => {
@@ -13,7 +12,7 @@ const BarChart = (props) => {
 
         bars.forEach(bar =>
             bar.classList.add('animated-bar-chart-width')
-          );
+        );
     };
 
     useEffect(() => {
@@ -21,7 +20,7 @@ const BarChart = (props) => {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    }, [scrollPosition, hasScrolledDown]);
+    }, [scrollPosition]);
 
     return (
         <div className="bar-chart">
@@ -32,8 +31,7 @@ const BarChart = (props) => {
                 <div className="bar-chart-width"
                     style={{
                         width: props.width
-                    }}
-                >
+                    }}>
                 </div>
             </div>
 

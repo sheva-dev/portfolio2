@@ -14,22 +14,19 @@
     color: #fff !important;
     border: none !important;
     box-shadow: none !important;
-}
-
-.md-textarea {
     resize: none !important;
 }
 
-.border-focus:focus {
+/* .border-focus:focus {
     border: none !important;
     box-shadow: none !important;
     color: #fff !important;
-}
+} */
 
-.active {
+/* .active {
     color: gray !important;
     background-color: #252934;
-}
+} */
 
 .Ripple {
     color: #fff !important;
