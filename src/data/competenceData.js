@@ -8,7 +8,7 @@ const competenceData = [
         id: '1',
         icon: faShieldCheck,
         color: '#fff',
-        size: '4x',
+        size: '3x',
         title: 'RESPONSIVE',
         des: 'Morbi mattis ullamcorper velit. Praesent adipiscing.'
     },
@@ -16,7 +16,7 @@ const competenceData = [
         id: '2',
         icon: faPhoneLaptop,
         color: '#fff',
-        size: '4x',
+        size: '3x',
         title: 'RESPONSIVE',
         des: 'Morbi mattis ullamcorper velit. Praesent adipiscing.'
     },
@@ -24,7 +24,7 @@ const competenceData = [
         id: '3',
         icon: faTachometerFast,
         color: '#fff',
-        size: '4x',
+        size: '3x',
         title: 'RESPONSIVE',
         des: 'Morbi mattis ullamcorper velit. Praesent adipiscing.'
     },
@@ -32,7 +32,7 @@ const competenceData = [
         id: '4',
         icon: faUserCheck,
         color: '#fff',
-        size: '4x',
+        size: '3x',
         title: 'RESPONSIVE',
         des: 'Morbi mattis ullamcorper velit. Praesent adipiscing.'
     },

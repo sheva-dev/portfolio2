@@ -19,7 +19,6 @@ const Competence = () => {
                     <div className="des-div" key={item.id} >
                         <h3 key={item.id} style={{
                             margin: "10px 0 10px 0",
-                            textAlign: "center"
                         }}>{item.title}</h3>
                         <p className="des-p" key={item.id * 2}>{item.des}</p>
                     </div>
