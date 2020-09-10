@@ -5,7 +5,6 @@ import Sections from '../../sections/Sections/Sections';
 const App = () => {
     return (
         <div>
-            {/* <Nav /> */}
             <Sections />
         </div>
     );

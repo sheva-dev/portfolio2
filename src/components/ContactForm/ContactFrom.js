@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBCardBody, MDBIcon, MDBInput } from 'mdbreact';
+import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBCardBody, MDBIcon } from 'mdbreact';
 import { useForm } from 'react-hook-form';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
@@ -77,7 +77,13 @@ const ContactFrom = () => {
                 </MDBRow>
 
                 {confMsg &&
-                    <p className="confirmation-message" style={{ textAlign: 'center', marginTop: "20px", fontWeight: '1000' }}>
+                    <p className="confirmation-message"
+                        style={{
+                            textAlign: 'center',
+                            marginTop: "20px",
+                            fontWeight: '1000',
+                            color:'#04c2c9'
+                        }}>
                         Thank you {name} for your message, I will answer you as soon as possible.
                     </p>
                 }
