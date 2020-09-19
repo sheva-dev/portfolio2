@@ -8,7 +8,7 @@ const projectCardsData = [
         id: '1',
         imgUrl: img1,
         title: 'Car Hub',
-        disc: 'MongoDB, React, Node.js',
+        disc: 'MongoDB, Express, React, Node.js',
         projectLink: 'https://github.com/Amin-Mohamed/car-hub',
     },
     {

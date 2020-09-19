@@ -2,3 +2,9 @@
     background-color: #252934;
     color: #fff;
 }
+
+@media (max-width: 450px) {
+    .contact-section {
+        height: 120vh;
+    }
+}

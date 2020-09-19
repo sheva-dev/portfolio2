@@ -2,7 +2,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 22%;
+    height: 20%;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -12,7 +12,7 @@
 .links {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .icon:hover {
@@ -24,6 +24,13 @@
     font-weight: bold;
     font-size: small;
     text-align: center;
+    font-family: "Raleway";
+}
+
+.copyright p {
+    margin-bottom: 0;
+    opacity: 0.5;
+    text-transform: uppercase;
 }
 
 .up {

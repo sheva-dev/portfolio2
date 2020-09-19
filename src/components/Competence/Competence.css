@@ -26,3 +26,21 @@
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 450px) {
+    .competence-div {
+        display: flex;
+        flex-direction: column;
+        margin: 5% 5% 5% 5%;
+        font-size: 16px;
+    }
+
+    .circle {
+        width: 65px;
+        height: 65px;
+    }
+
+    .icon-div {
+        margin-top: 20px;
+    }
+}

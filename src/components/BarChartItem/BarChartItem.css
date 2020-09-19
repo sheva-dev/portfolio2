@@ -6,6 +6,10 @@
     font-weight: bolder;
 }
 
+.chart-div {
+    width: 50%;
+}
+
 .bar-chart-title {
     width: 25%;
     height: 29px;
@@ -44,5 +48,22 @@
 
     100% {
         width: 100;
+    }
+}
+
+@media (max-width: 450px) {
+    .chart-div {
+        width: 95%;
+    }
+
+    .bar-chart-title {
+        width: 40%;
+        height: 29px;
+    }
+
+    .bar-chart-procent {
+        width: 10%;
+        line-height: 2;
+        height: 29px;
     }
 }

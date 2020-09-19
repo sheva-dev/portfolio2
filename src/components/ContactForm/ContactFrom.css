@@ -2,7 +2,6 @@
     display: flex;
     font-family: 'Raleway' !important;
     justify-content: center;
-    margin-top: 5vh;
 }
 
 .card-body {
@@ -17,17 +16,6 @@
     resize: none !important;
 }
 
-/* .border-focus:focus {
-    border: none !important;
-    box-shadow: none !important;
-    color: #fff !important;
-} */
-
-/* .active {
-    color: gray !important;
-    background-color: #252934;
-} */
-
 .Ripple {
     color: #fff !important;
 }
@@ -35,4 +23,13 @@
 .btn-default {
     color: #04c2c9 !important;
     border-top-color: #04c2c9 !important;
+
+}
+
+.text-center {
+    margin-bottom: -25px !important;
+}
+
+.container {
+    height: 200px !important;
 }

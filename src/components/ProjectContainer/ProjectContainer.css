@@ -4,15 +4,29 @@
     display: flex;
 }
 
-/* @media (min-width: 600px) {
-    .project-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
+.github {
+    border: 2px solid #252934;
+    border-radius: 30px;
+    font-weight: 500;
+    color: #252934;
+    text-align: center;
+    transition: all 0.6s;
+    width: auto !important;
 }
 
-@media (min-width: 900px) {
+.github:hover {
+    color: #252934;
+    background-color: #00a1a7;
+}
+
+@media (max-width: 450px) {
     .project-container {
-        grid-template-columns: repeat(6, 1fr);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .github {
+        width: 80% !important;
+        font-size: 17px;
     }
 }
- */

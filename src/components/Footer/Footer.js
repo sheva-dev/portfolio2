@@ -23,9 +23,10 @@ const Footer = () => {
                     <FontAwesomeIcon className="icon" icon={faInstagram} color="white" size="2x" />
                 </a>
             </div>
-            <div>
-                <p className="copyright">
-                    Amin Moahmed <span style={{ ontWeight: "bold" }}>&#169;</span>
+            <div className="copyright">
+                <p>
+                    Amin Moahmed <span>&#169;</span>
+                    <span style={{ color: "#e31b6d" }}>2020</span>
                 </p>
             </div>
         </div>

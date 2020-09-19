@@ -70,24 +70,21 @@ const ContactFrom = () => {
                                     </MDBBtn>
                                 </div>
 
+                                {confMsg &&
+                                    <p className="confirmation-message"
+                                        style={{
+                                            textAlign: 'center',
+                                            marginTop: "20px",
+                                            fontWeight: '1000',
+                                            color: '#04c2c9'
+                                        }}>
+                                        Thank you {name} for your message.
+                                    </p>
+                                }
                             </form>
-
                         </MDBCardBody>
                     </MDBCol>
                 </MDBRow>
-
-                {confMsg &&
-                    <p className="confirmation-message"
-                        style={{
-                            textAlign: 'center',
-                            marginTop: "20px",
-                            fontWeight: '1000',
-                            color:'#04c2c9'
-                        }}>
-                        Thank you {name} for your message, I will answer you as soon as possible.
-                    </p>
-                }
-
             </MDBContainer>
         </div>
     );
