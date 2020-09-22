@@ -1,35 +1,74 @@
-.row {
-    display: flex;
-    font-family: 'Raleway' !important;
-    justify-content: center;
-}
-
-.card-body {
+input[type=text],
+input[type=email],
+textarea {
+    min-width: 500px;
+    padding: 12px;
+    border: none;
     background-color: #1e242c;
+    resize: none;
+    color: #fff;
 }
 
-.form-control {
-    background-color: #252934 !important;
-    color: #fff !important;
-    border: none !important;
-    box-shadow: none !important;
-    resize: none !important;
+textarea:focus,
+input:focus {
+    outline: none;
+    color: #fff;
 }
 
-.Ripple {
-    color: #fff !important;
+input[type=submit] {
+    background: transparent;
+    color: #fff;
+    font-size: 12pt;
+    margin: 5px 0 0 0;
+    padding: 5px 30px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.5s;
 }
 
-.btn-default {
-    color: #04c2c9 !important;
-    border-top-color: #04c2c9 !important;
-
-}
-
-.text-center {
-    margin-bottom: -25px !important;
+input[type=submit]:hover {
+    background: #04c2c9;
 }
 
 .container {
-    height: 200px !important;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.col-75 {
+    width: 75%;
+}
+
+.row-button {
+    float: right;
+    width: 23%;
+}
+
+@media screen and (max-width: 450px) {
+
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+    }
+
+    input[type=text],
+    input[type=email],
+    select,
+    textarea {
+        min-width: 300px;
+        padding: 12px;
+        border: none;
+        background-color: #1e242c;
+        resize: none;
+        outline: none;
+        color: #fff;
+    }
+
+    .row-button {
+        float: right;
+        width: 53%;
+    }
+
 }

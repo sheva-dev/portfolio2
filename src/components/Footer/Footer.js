@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons'
-import { faAngleDoubleUp } from '@fortawesome/pro-regular-svg-icons';
+import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
     return (
@@ -26,7 +26,7 @@ const Footer = () => {
             <div className="copyright">
                 <p>
                     Amin Moahmed <span>&#169;</span>
-                    <span style={{ color: "#e31b6d" }}>2020</span>
+                    <span style={{ fontSize: "14px", color: "#e31b6d" }}>2020</span>
                 </p>
             </div>
         </div>

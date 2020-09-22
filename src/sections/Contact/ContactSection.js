@@ -7,12 +7,14 @@ import SectionTitle from '../../components/SectionTitle/SectionTitle';
 const ContactSection = () => {
     return (
         <section className="contact-section">
-            <SectionTitle sectionTitle="contact" lineColor="#fff"/>
-            {/* <h1 style={{textAlign:"center", paddingTop:"50px"}}>CONTACT</h1>
-            <hr style={{width:'130px', margin:"auto", backgroundColor:"#fff", height:"2px"}} /> */}
+            <SectionTitle sectionTitle="contact" lineColor="#fff" />
+            <p style={{
+                color: "#04c2c9",
+                fontWeight: 600
+            }}>Get in Touch</p>
             <ContactFrom />
             <Footer />
-        </section>
+        </section >
     );
 }
 

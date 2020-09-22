@@ -1,12 +1,12 @@
-import { faShieldCheck } from "@fortawesome/pro-regular-svg-icons";
-import { faTachometerFast } from "@fortawesome/pro-regular-svg-icons";
-import { faPhoneLaptop } from "@fortawesome/pro-regular-svg-icons";
-import { faUserCheck } from "@fortawesome/pro-regular-svg-icons";
+import { faUserShield } from "@fortawesome/free-solid-svg-icons";
+import { faTachometerAlt } from "@fortawesome/free-solid-svg-icons";
+import { faMobileAlt } from "@fortawesome/free-solid-svg-icons";
+import { faUserCheck } from "@fortawesome/free-solid-svg-icons";
 
 const competenceData = [
     {
         id: '1',
-        icon: faShieldCheck,
+        icon: faUserShield,
         color: '#fff',
         size: '3x',
         title: 'RESPONSIVE',
@@ -14,7 +14,7 @@ const competenceData = [
     },
     {
         id: '2',
-        icon: faPhoneLaptop,
+        icon: faTachometerAlt,
         color: '#fff',
         size: '3x',
         title: 'RESPONSIVE',
@@ -22,7 +22,7 @@ const competenceData = [
     },
     {
         id: '3',
-        icon: faTachometerFast,
+        icon: faMobileAlt,
         color: '#fff',
         size: '3x',
         title: 'RESPONSIVE',

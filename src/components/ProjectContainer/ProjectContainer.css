@@ -6,17 +6,16 @@
 
 .github {
     border: 2px solid #252934;
-    border-radius: 30px;
     font-weight: 500;
     color: #252934;
     text-align: center;
-    transition: all 0.6s;
+    transition: all 0.5s;
     width: auto !important;
 }
 
 .github:hover {
     color: #252934;
-    background-color: #00a1a7;
+    background-color: #04c2c9;
 }
 
 @media (max-width: 450px) {
