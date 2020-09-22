@@ -19,7 +19,7 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/in/amin-m-28b0aa193">
                     <FontAwesomeIcon className="icon" icon={faLinkedin} color="white" size="2x" />
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/amin-m-28b0aa193">
                     <FontAwesomeIcon className="icon" icon={faInstagram} color="white" size="2x" />
                 </a>
             </div>
