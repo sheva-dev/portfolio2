@@ -15,7 +15,28 @@
     margin: 40px 0 40px 0;
 }
 
+.icon {
+    margin-left: 10px;
+}
+
 .github:hover {
     background: #04c2c9;
     color: #fff;
+}
+
+.github:hover .icon {
+    position: relative;
+    animation: arrow 0.7s infinite;
+}
+
+@keyframes arrow {
+    0% {
+        left: 0px;
+        opacity: 0.4;
+    }
+
+    100% {
+        left: 10px;
+        opacity: 1;
+    }
 }

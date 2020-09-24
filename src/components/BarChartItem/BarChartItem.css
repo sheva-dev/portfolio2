@@ -2,23 +2,27 @@
     display: flex;
     flex-direction: row;
     height: 55px;
-    padding: 2%;
+    margin-bottom: -10px;
+    justify-content: center;
 }
 
 .chart-div {
-    width: 50%;
+    width: 40%;
 }
 
 .bar-chart-title {
-    width: 25%;
+    width: 20%;
     height: 29px;
     align-items: flex-start;
     background-color: #04c2c9;
+    color: #fff;
 }
 
 .bar-chart-title p {
     text-align: center;
     line-height: 2;
+    font-weight: bolder;
+    font-size: 11pt;
 }
 
 .bar-chart-div {

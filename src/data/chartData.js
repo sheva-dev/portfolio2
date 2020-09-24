@@ -46,9 +46,14 @@ const chartData = [
     },
     {
         id: '10',
-        title: 'FIGMA',
+        title: '.NET',
         width: '50%',
     },
+    {
+        id: '11',
+        title: 'FIGMA',
+        width: '50%',
+    }
 ]
 
 export default chartData;

@@ -16,7 +16,7 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="up">
-                <Link onClick={scrollTop}>
+                <Link to="" onClick={scrollTop}>
                     <FontAwesomeIcon className="up-icon" icon={faAngleDoubleUp} size="xs" />
                 </Link>
             </div>

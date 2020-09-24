@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../Button/Button';
 import './ProjectCard.css';
+import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 
 const ProjectCard = (props) => {
     return (
@@ -13,7 +14,12 @@ const ProjectCard = (props) => {
                     <div style={{
                         paddingTop: "20px"
                     }}>
-                        <Button url={props.link} text="View on Github" />
+                        <Button
+                            url={props.link}
+                            text="View on Github"
+                            className="git-button"
+                            icon={faAngleDoubleRight}
+                        />
                     </div>
                 </div>
             </div>

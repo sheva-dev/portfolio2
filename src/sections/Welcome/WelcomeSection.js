@@ -16,10 +16,8 @@ const WelcomeSection = () => {
                 divStyle={{
                     paddingTop: "40px"
                 }}
+                className="button"
                 text="View my work"
-                spanStyle={{
-                    paddingRight: '15px'
-                }}
             />
         </section>
     );
