@@ -21,7 +21,6 @@
     transition: .5s ease;
     background-color: #252934;
     color: #fff;
-    /* border: 0.5rem solid #04c2c9; */
 }
 
 .project-card:hover .overlay {
@@ -34,6 +33,10 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.card-disc p {
+    margin-bottom: 15px;
 }
 
 .title {

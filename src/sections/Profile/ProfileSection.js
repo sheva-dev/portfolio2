@@ -6,8 +6,8 @@ import SectionTitle from '../../components/SectionTitle/SectionTitle';
 
 const ProfileSection = () => {
     return (
-        <section id="profile" className="profile-section" style={{height: '100%'}}>
-            <SectionTitle sectionTitle="about" lineColor="#000"/>
+        <section id="profile" className="profile-section">
+            <SectionTitle sectionTitle="about" lineColor="#000" />
             <div className="competence">
                 <Competence />
             </div>

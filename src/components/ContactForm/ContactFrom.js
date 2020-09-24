@@ -18,6 +18,7 @@ const ContactFrom = () => {
     return (
         <>
             <div className="container">
+                <p>Get in Touch</p>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="row">
                         <div className="col-75">
@@ -38,7 +39,7 @@ const ContactFrom = () => {
                         </div>
                     </div>
                     <div className="row-button">
-                        <input type="submit" value="SUBMIT" />
+                        <input type="submit" value="Send" />
                     </div>
                 </form>
             </div>

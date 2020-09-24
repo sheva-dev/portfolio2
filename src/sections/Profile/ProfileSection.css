@@ -1,3 +1,10 @@
 .profile-section {
+    justify-content: space-around;
+    height: 100vh;
+}
 
+@media (max-width: 500px) {
+    .profile-section {
+        height: 100%;
+    }
 }

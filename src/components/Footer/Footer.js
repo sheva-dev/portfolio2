@@ -3,24 +3,32 @@ import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
+    const scrollTop = () => {
+        window.scroll({
+            top: 0,
+            left: 0,
+        });
+    };
+
     return (
         <div className="footer">
             <div className="up">
-                <a href="#top">
+                <Link onClick={scrollTop}>
                     <FontAwesomeIcon className="up-icon" icon={faAngleDoubleUp} size="xs" />
-                </a>
+                </Link>
             </div>
             <div className="links">
                 <a href="https://github.com/Amin-Mohamed">
-                    <FontAwesomeIcon className="icon" icon={faGithub} color="white" size="2x" />
+                    <FontAwesomeIcon className="icon" icon={faGithub} color="white" size="3x" />
                 </a>
                 <a href="https://www.linkedin.com/in/amin-m-28b0aa193">
-                    <FontAwesomeIcon className="icon" icon={faLinkedin} color="white" size="2x" />
+                    <FontAwesomeIcon className="icon" icon={faLinkedin} color="white" size="3x" />
                 </a>
                 <a href="https://www.linkedin.com/in/amin-m-28b0aa193">
-                    <FontAwesomeIcon className="icon" icon={faInstagram} color="white" size="2x" />
+                    <FontAwesomeIcon className="icon" icon={faInstagram} color="white" size="3x" />
                 </a>
             </div>
             <div className="copyright">

@@ -4,7 +4,7 @@ import chartData from '../../data/chartData';
 
 const BarChart = () => {
     return (
-        <div style={{ paddingTop: "8%" }}>
+        <div>
             {chartData.map(item => (
                 <BarChartItem
                     key={item.id}

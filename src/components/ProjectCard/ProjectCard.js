@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../Button/Button';
 import './ProjectCard.css';
 
 const ProjectCard = (props) => {
@@ -9,7 +10,11 @@ const ProjectCard = (props) => {
                 <div className="card-disc">
                     <p className="title">{props.title}</p>
                     <p className="disc">{props.disc}</p>
-                    <a href={props.link} className="card-button">View on Github</a>
+                    <div style={{
+                        paddingTop: "20px"
+                    }}>
+                        <Button url={props.link} text="View on Github" />
+                    </div>
                 </div>
             </div>
         </div>
