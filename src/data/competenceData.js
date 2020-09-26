@@ -9,16 +9,16 @@ const competenceData = [
         icon: faUserShield,
         color: '#fff',
         size: '3x',
-        title: 'RESPONSIVE',
-        des: 'Morbi mattis ullamcorper velit. Praesent adipiscing.'
+        title: 'SECURE',
+        des: 'Modern web development has many challenges, and of those security is very important.'
     },
     {
         id: '2',
         icon: faTachometerAlt,
         color: '#fff',
         size: '3x',
-        title: 'RESPONSIVE',
-        des: 'Morbi mattis ullamcorper velit. Praesent adipiscing.'
+        title: 'FAST',
+        des: 'Fast load times and lag free interaction, my highest priority.'
     },
     {
         id: '3',
@@ -26,14 +26,14 @@ const competenceData = [
         color: '#fff',
         size: '3x',
         title: 'RESPONSIVE',
-        des: 'Morbi mattis ullamcorper velit. Praesent adipiscing.'
+        des: 'My layouts will work on any device, big or small.'
     },
     {
         id: '4',
         icon: faUserCheck,
         color: '#fff',
         size: '3x',
-        title: 'RESPONSIVE',
+        title: 'USER FRIENDLY',
         des: 'Morbi mattis ullamcorper velit. Praesent adipiscing.'
     },
 ];

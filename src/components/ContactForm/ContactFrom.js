@@ -18,7 +18,6 @@ const ContactFrom = () => {
     return (
         <>
             <div className="container">
-                <p>Get in Touch</p>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="row">
                         <div className="col-75">
@@ -44,7 +43,7 @@ const ContactFrom = () => {
                 </form>
             </div>
             {confMsg &&
-                <p classNameName="confirmation-message"
+                <p className="confirmation-message"
                     style={{
                         textAlign: 'center',
                         marginTop: "20px",
