@@ -10,7 +10,7 @@ const competenceData = [
         color: '#fff',
         size: '3x',
         title: 'Secure',
-        des: 'For me a scure coding is essential on modern web development'
+        des: 'Scure coding is essential on modern web development'
     },
     {
         id: '2',
@@ -18,7 +18,7 @@ const competenceData = [
         color: '#fff',
         size: '3x',
         title: 'Fast',
-        des: 'Fast load times, lag and bug free applications, are my highest priority.'
+        des: 'Fast loading time, lags and bugs free applications, are my highest priority.'
     },
     {
         id: '3',
