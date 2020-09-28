@@ -4,7 +4,7 @@ import chartData from '../../data/chartData';
 
 const BarChart = () => {
     return (
-        <div>
+        <div className="chart-div">
             {chartData.map(item => (
                 <BarChartItem
                     key={item.id}

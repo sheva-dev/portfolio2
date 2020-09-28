@@ -8,12 +8,8 @@ const ProfileSection = () => {
     return (
         <section id="profile" className="profile-section">
             <SectionTitle sectionTitle="about" lineColor="#000" />
-            <div className="competence">
-                <Competence />
-            </div>
-            <div className="chart-div">
-                <BarChart />
-            </div>
+            <Competence />
+            <BarChart />
         </section>
     );
 }
