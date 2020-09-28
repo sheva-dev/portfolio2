@@ -33,7 +33,7 @@ const competenceData = [
         icon: faUserCheck,
         color: '#fff',
         size: '3x',
-        title: 'User friendly',
+        title: 'User Friendly',
         des: 'Powerful preference for easy use, intuitive UX/UI.'
     },
 ];
