@@ -10,7 +10,7 @@ const competenceData = [
         color: '#fff',
         size: '3x',
         title: 'Secure',
-        des: 'Scure coding is essential on modern web development'
+        des: 'Secure coding is essential on modern web development'
     },
     {
         id: '2',
