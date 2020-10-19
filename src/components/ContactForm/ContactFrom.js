@@ -54,8 +54,7 @@ const ContactFrom = () => {
                         <div className="col-75">
                             <textarea id="subject" name="message" placeholder="Your Message" rows="5"
                                 ref={register({
-                                    required: true,
-                                    pattern: /^[A-Za-z]+$/i
+                                    required: true
                                 })}></textarea>
                             <p>{errors.message && 'Message is required.'}</p>
                         </div>
