@@ -9,28 +9,28 @@ const projectCardsData = [
         imgUrl: img1,
         title: 'Car Hub',
         disc: 'MongoDB, Express, React, Node.js',
-        projectLink: 'https://github.com/Amin-Mohamed/car-hub',
+        projectLink: 'https://github.com/ShevaDev/car-hub',
     },
     {
         id: '2',
         imgUrl: img2,
         title: 'Kulturakademin',
         disc: 'React',
-        projectLink: 'https://github.com/Amin-Mohamed/kulturakademin',
+        projectLink: 'https://github.com/ShevaDev/kulturakademin',
     },
     {
         id: '3',
         imgUrl: img3,
         title: 'Photoify',
         disc: 'HTML, CSS, PHP',
-        projectLink: 'https://github.com/Amin-Mohamed/photoify',
+        projectLink: 'https://github.com/ShevaDev/photoify',
     },
     {
         id: '4',
         imgUrl: img4,
         title: 'Fast Security',
         disc: 'HTML, CSS, PHP',
-        projectLink: 'https://github.com/Amin-Mohamed/photoify',
+        projectLink: 'https://github.com/ShevaDev/photoify',
     },
 ];
 

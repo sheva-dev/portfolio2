@@ -13,7 +13,7 @@
     padding-left: 40%;
     padding-right: 40%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 40px;
 }
 
@@ -67,6 +67,8 @@
     .links {
         padding-left: 0;
         padding-right: 0;
+        margin-right: 30px;
+        margin-left: 30px;
     }
 
     .footer {
