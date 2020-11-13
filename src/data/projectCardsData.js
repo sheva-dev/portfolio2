@@ -30,7 +30,7 @@ const projectCardsData = [
         imgUrl: img4,
         title: 'Fast Security',
         disc: 'HTML, CSS, PHP',
-        projectLink: 'https://github.com/ShevaDev/photoify',
+        projectLink: 'https://github.com/sheva-dev/fast-security',
     },
 ];
 

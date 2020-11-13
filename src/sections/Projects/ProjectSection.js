@@ -10,7 +10,7 @@ const ProjectSection = () => {
         <section className="my-project-section">
             <SectionTitle sectionTitle="projects" lineColor="#000" />
             <ProjectContainer />
-            <a href="https://github.com/ShevaDev?tab=repositories" className="github">
+            <a href="https://github.com/sheva-dev?tab=repositories" className="github">
                 View all my projects on Github
                 <FontAwesomeIcon className="icon" icon={faAngleDoubleRight} />
             </a>
