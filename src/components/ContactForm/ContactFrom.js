@@ -16,10 +16,7 @@ const ContactFrom = () => {
             .then(res => {
                 setConfMsg(true);
                 setName(data.name);
-                console.log('SUCCESS!', res.status, res.text)
                 form.reset();
-            }, error => {
-                console.log('FAILED...', error)
             });
     }
 
@@ -31,21 +28,25 @@ const ContactFrom = () => {
                         <div className="col-75">
                             <input type="text" id="name" name="name" placeholder="Name"
                                 ref={register({
-                                    required: true,
-                                    pattern: /^[A-Za-z]+$/i
+                                    required: "Enter your Name",
+                                    pattern: {
+                                        value: /^[A-Za-z]+$/i,
+                                        message: "Please Enter a valid name",
+                                    }
                                 })} />
-                            <p> {errors.name && 'Name is required.'}</p>
+                            {errors.name && <p className="error">{errors.name.message}</p>}
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-75">
-                            <input type="email" id="name" name="email" placeholder="Email" ref={register({
-                                required: "Enter your e-mail",
-                                pattern: {
-                                    value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
-                                    message: "Enter a valid e-mail address",
-                                }
-                            })}
+                            <input type="email" id="email" name="email" placeholder="Email"
+                                ref={register({
+                                    required: "Enter your e-mail",
+                                    pattern: {
+                                        value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
+                                        message: "Please Enter a valid e-mail address",
+                                    }
+                                })}
                             />
                             {errors.email && <p className="error">{errors.email.message}</p>}
                         </div>
@@ -54,9 +55,13 @@ const ContactFrom = () => {
                         <div className="col-75">
                             <textarea id="subject" name="message" placeholder="Your Message" rows="5"
                                 ref={register({
-                                    required: true
+                                    required: "Enter your message",
+                                    pattern: {
+                                        value: /[.*+\-?^${}()|[\]\\]/g,
+                                        message: "Please Enter a valid message",
+                                    }
                                 })}></textarea>
-                            <p>{errors.message && 'Message is required.'}</p>
+                            {errors.message && <p className="error">{errors.message.message}</p>}
                         </div>
                     </div>
                     <div className="row-button">
